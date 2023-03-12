@@ -133,7 +133,7 @@ body {
     position: relative;
     color: var(--text);
     background-color: var(--bg-alt);
-    font: 1em/1em "Cairo";
+    font: 1em/1em "Rubik";
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -181,7 +181,7 @@ body {
     bottom: -3px;
     left: 50%;
     transform: translate(-50%, 50%);
-    font: 1.4em/1em Cairo;
+    font: 1.4em/1em Rubik;
     padding: 5px 20px;
     cursor: pointer;
 }
@@ -202,7 +202,7 @@ body {
     border-radius: 10px;
     top: 0px;
     left: 40px;
-    font: 2em/1em "Cairo";
+    font: 2em/1em "Rubik";
     padding: 0 6px;
     transform: translateY(-50%);
 }
@@ -267,7 +267,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    font: 1.8em/calc(80px * .75) "Cairo";
+    font: 1.8em/calc(80px * .75) "Rubik";
     color: var(--bg-alt);   
 }
 
@@ -325,7 +325,7 @@ body {
 
 @media only screen and (max-width: 550px) {
     .match .match-teams {
-        font: 1.3rem/1em Cairo;
+        font: 1.3rem/1em Rubik;
     }
 
     #matches .match {

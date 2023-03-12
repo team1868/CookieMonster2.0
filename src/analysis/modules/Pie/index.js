@@ -60,7 +60,7 @@ class Pie {
                 x: 0.85
             },
             font: {
-                family: "Cairo, sans-serif"
+                family: "Rubik, sans-serif"
             },
             paper_bgcolor: "#FEFEFE",
             plot_bgfcolor: "#FEFEFE",
