@@ -973,5 +973,11 @@
         }
       ]
     }
-  }
+  },
+  {
+		"view": "team",
+		"module": "Comments",
+		"name": "Comments",
+		"position": "side"
+	}
 ]

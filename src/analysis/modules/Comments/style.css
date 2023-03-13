@@ -1,0 +1,25 @@
+.comments.container {
+    width: 90%;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-alt);
+    border-radius: var(--border-radius);
+    border: 2px solid var(--accent-alt);
+}
+
+.comments .header {
+    font-size: 1.5em;
+    line-height: 1em;
+    text-align: center;
+    color: var(--text);
+    margin-bottom: 12px;
+}
+
+.comments .list {
+    display: flex;
+    font-size: 1em;
+    flex-direction: column;
+    width: 100%;
+    color: var(--text);
+}

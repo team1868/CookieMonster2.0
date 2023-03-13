@@ -55,6 +55,7 @@ const teamMatchPerformanceSchema = new mongoose.Schema({
         {
             id: String, //button id
             ts: Number, //timestamp of action
+            comment: String,
             other: {}, //extra information like position, tied to the ACTION not the team or robot
         }
     ]     

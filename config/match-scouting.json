@@ -1,7 +1,19 @@
 	{
     "timing": {
-        "totalTime": 150000,
+        "totalTime": 153000,
         "timeTransitions": {
+          "152990": {
+            "layer": 1,
+            "displayText": "Auto"
+          },
+          "138000": {
+              "layer": 11,
+              "displayText": "Do not touch"
+          },
+          "135000": {
+              "layer": 1,
+              "displayText": "Teleop"
+          }
         }
     },
     "layout": {
@@ -91,6 +103,14 @@
                     "class": "gray",
                     "type": "action",
                     "executables": [{"type": "layer", "args":[1,2]}]
+                },
+                {
+                  "id": "comments",
+                  "displayText": "Comments",
+                  "gridArea": ["8", "4", "4", "7"],
+                  "class": "gray",
+                  "type": "action",
+                  "executables": [{"type": "layer", "args":[1,10]}]
                 }
             ],
             [
@@ -705,8 +725,31 @@
                     "type": "action",
                     "executables": [{"type": "layer", "args":[8,0]}]
                 }
+            ],
+            [
+              {
+                  "id": "submit",
+                  "gridArea": ["5", "1", "2", "10"]
+              },
+              {
+                  "id": "submitComment",
+                  "displayText": "Submit Comment",
+                  "gridArea": ["5", "3", "6", "4"],
+                  "class": "gray",
+                  "type": "comment",
+                  "executables": [{"type": "layer", "args":[10,1]}] 
+              }    
+            ],
+            [
+              {
+                  "id": "startGame",
+                  "displayText": "Start",
+                  "gridArea": ["4", "1", "6", "10"],
+                  "class": "silver timer",
+                  "type": "match-control",
+                  "executables": [{"type": "layer", "args":[11,1]}]
+              }
             ]
-          
         ]
     }
 }
