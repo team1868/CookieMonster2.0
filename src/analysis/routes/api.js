@@ -10,7 +10,7 @@ router.get("/dataset", async (req, res) => {
 })
 
 if (!config.secrets.TBA_API_KEY) {
-    console.error(chalk.whiteBright.bgRed.bold("TBA_API_KEY not found in config.json file! SPOT will not properly function without this."))
+    console.error(chalk.whiteBright.bgRed.bold("TBA_API_KEY not found in config.json file! Cookie Monster will not properly function without this."))
 }
 
 router.get("/teams", async (req, res) => {
