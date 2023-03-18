@@ -144,6 +144,98 @@
   },
   {
     "view":"team",
+    "module": "Pie",
+    "position":"main",
+    "name":"Auto Cube Pickups",
+    "wholeMatch": false,
+    "options":{
+      "slices":[
+        {
+          "name":"level0",
+          "path":"countsLevels.Auto.cubePickup.level0"
+        },
+        {
+          "name":"level1",
+          "path":"countsLevels.Auto.cubePickup.level1"
+        },
+        {
+          "name":"level2",
+          "path":"countsLevels.Auto.cubePickup.level2"
+        }
+      ]
+    }
+  },
+  {
+    "view":"team",
+    "module": "Pie",
+    "position":"main",
+    "name":"Teleop Cube Pickups",
+    "wholeMatch": false,
+    "options":{
+      "slices":[
+        {
+          "name":"level0",
+          "path":"countsLevels.Teleop.cubePickup.level0"
+        },
+        {
+          "name":"level1",
+          "path":"countsLevels.Teleop.cubePickup.level1"
+        },
+        {
+          "name":"level2",
+          "path":"countsLevels.Teleop.cubePickup.level2"
+        }
+      ]
+    }
+  },
+  {
+    "view":"team",
+    "module": "Pie",
+    "position":"main",
+    "name":"Auto Cone Pickups",
+    "wholeMatch": false,
+    "options":{
+      "slices":[
+        {
+          "name":"level0",
+          "path":"countsLevels.Auto.conePickup.level0"
+        },
+        {
+          "name":"level1",
+          "path":"countsLevels.Auto.conePickup.level1"
+        },
+        {
+          "name":"level2",
+          "path":"countsLevels.Auto.conePickup.level2"
+        }
+      ]
+    }
+  },
+  {
+    "view":"team",
+    "module": "Pie",
+    "position":"main",
+    "name":"Teleop Cone Pickups",
+    "wholeMatch": false,
+    "options":{
+      "slices":[
+        {
+          "name":"level0",
+          "path":"countsLevels.Teleop.conePickup.level0"
+        },
+        {
+          "name":"level1",
+          "path":"countsLevels.Teleop.conePickup.level1"
+        },
+        {
+          "name":"level2",
+          "path":"countsLevels.Teleop.conePickup.level2"
+        }
+      ]
+    }
+  },
+  {
+    "view":"team",
     "module":"Grid",
     "position":"main",
     "name":"Avg Auto Placements",
