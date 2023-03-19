@@ -1,7 +1,19 @@
 	{
     "timing": {
-        "totalTime": 150000,
+        "totalTime": 153000,
         "timeTransitions": {
+          "152990": {
+            "layer": 1,
+            "displayText": "Auto"
+          },
+          "138000": {
+              "layer": 11,
+              "displayText": "Gap"
+          },
+          "135000": {
+              "layer": 1,
+              "displayText": "Teleop"
+          }
         }
     },
     "layout": {
@@ -86,11 +98,19 @@
                   },
                 {
                     "id": "chargingDock",
-                    "displayText": "Charging Dock",
+                    "displayText": "Charge Station",
                     "gridArea": ["3", "4", "4", "7"],
                     "class": "gray",
                     "type": "action",
                     "executables": [{"type": "layer", "args":[1,2]}]
+                },
+                {
+                  "id": "comments",
+                  "displayText": "Comments",
+                  "gridArea": ["5", "4", "5", "7"],
+                  "class": "gray",
+                  "type": "action",
+                  "executables": [{"type": "layer", "args":[1,9]}]
                 }
             ],
             [
@@ -202,7 +222,7 @@
                 }
               
             ],
-          [
+            [
                 {
                     "id": "startGame",
                     "displayText": "Start",
@@ -305,7 +325,7 @@
                   },
                 {
                     "id": "chargingDock",
-                    "displayText": "Charging Dock",
+                    "displayText": "Charge Station",
                     "gridArea": ["3", "4", "4", "7"],
                     "class": "gray",
                     "type": "action",
@@ -481,7 +501,7 @@
                       "executables": [{"type": "layer", "args":[5,1]}]
                 }
             ],
-          [
+            [
                 {
                     "id": "startGame",
                     "displayText": "Start",
@@ -525,7 +545,7 @@
                   },
                 {
                     "id": "chargingDock",
-                    "displayText": "Charging Dock",
+                    "displayText": "Charge Station",
                     "gridArea": ["3", "4", "4", "7"],
                     "class": "gray",
                     "type": "action",
@@ -652,7 +672,7 @@
                       "executables": [{"type": "layer", "args":[6,1]}]
                 }
             ],
-          [
+            [
                 {
                     "id": "startGame",
                     "displayText": "Start",
@@ -679,7 +699,7 @@
                     "executables": [{"type": "layer", "args":[7,0]}]
                 }
             ],
-          [
+            [
                 {
                     "id": "startGame",
                     "displayText": "Start",
@@ -705,8 +725,21 @@
                     "type": "action",
                     "executables": [{"type": "layer", "args":[8,0]}]
                 }
+            ],
+            [
+              {
+                  "id": "submit",
+                  "gridArea": ["5", "1", "2", "10"]
+              },
+              {
+                  "id": "submitComment",
+                  "displayText": "Submit Comment",
+                  "gridArea": ["8", "4", "5", "7"],
+                  "class": "gray",
+                  "type": "comment",
+                  "executables": [{"type": "layer", "args":[9,1]}] 
+              }    
             ]
-          
         ]
     }
 }

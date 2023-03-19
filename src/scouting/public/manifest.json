@@ -1,6 +1,6 @@
 {
-    "name": "SPOT Scouting",
-    "short_name": "SPOT",
+    "name": "Cookie Monster Scouting",
+    "short_name": "Cookie Monster",
     "description": "An open source modular scouting app developed by Team 3061 Huskie Robotics.",
     "display": "fullscreen",
     "orientation": "landscape",

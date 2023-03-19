@@ -43,12 +43,25 @@ let devEnd
                 actionQueue.push({
                     "id": button.id,
                     "ts": time,
+                    "comment": "",
                 })
                 doExecutables(button)
 				updateLastAction()
             })
         },
-
+        //Nishka comment update for the data base
+        "comment": (button) => {
+            //recieve comments
+            button.element.addEventListener("click", () => { 
+                actionQueue.push({
+                    "id": button.id,
+                    "ts": time,
+                    "comment": document.getElementById("commentSection").value,
+                })
+                doExecutables(button)
+				updateLastAction()
+            })
+        },
         "undo": (button) => {
             button.element.addEventListener("click", () => {
                 const undoneId = actionQueue.pop().id //remove the last action from the action queue 
@@ -78,7 +91,8 @@ let devEnd
                 actionQueue.push({
                     "id": button.id,
                     "ts": time,
-                    "temp": true
+                    "temp": true,
+                    "comment": "",
                 })
                 doExecutables(button)
 				updateLastAction()
@@ -111,7 +125,8 @@ let devEnd
                 actionQueue.push({ //create a temporary action queue so you can undo it
                     "id": button.id,
                     "ts": time,
-                    "temp": true
+                    "temp": true,
+                    "comment": "",
                 })
 
                 ScoutingSync.updateState({status: ScoutingSync.SCOUTER_STATUS.SCOUTING}); //tell the server that you started scouting
@@ -152,17 +167,26 @@ let devEnd
     //create button objects in layers
     for (const layer of layers) {
         for (const button of layer) {
-            button.element = document.createElement("div");
-            
-            //give the button element its properties
-            button.element.innerText = button.displayText || button.id;
-            button.element.classList.add("grid-button", ...button.class.split(" "));
-            button.element.style.gridArea = button.gridArea.join(" / ");
-            
-            //apply type to button
-            buttonBuilders[button.type](button);
-            //add the button to the grid
-            grid.appendChild(button.element);
+            if (button.id == "submit"){
+                button.element = document.createElement("textarea");
+                button.element.setAttribute("id", "commentSection");
+                button.element.classList.add("grid-text");
+                button.element.style.gridArea = button.gridArea.join(" / ");
+                grid.appendChild(button.element);
+            } 
+            else {
+                button.element = document.createElement("div");
+                
+                //give the button element its properties
+                button.element.innerText = button.displayText || button.id;
+                button.element.classList.add("grid-button", ...button.class.split(" "));
+                button.element.style.gridArea = button.gridArea.join(" / ");
+                
+                //apply type to button
+                buttonBuilders[button.type](button);
+                //add the button to the grid
+                grid.appendChild(button.element);
+            }
         }
     }
 

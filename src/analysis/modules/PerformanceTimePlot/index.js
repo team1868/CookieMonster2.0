@@ -57,7 +57,7 @@ class PerformanceTimePlot {
                 y: -3
             },
             font: {
-                family: "Cairo, sans-serif"
+                family: "Rubik, sans-serif"
             },
             paper_bgcolor: "#FEFEFE",
             plot_bgcolor: "#FEFEFE"

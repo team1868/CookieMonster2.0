@@ -39,7 +39,7 @@ class ScoutingSync {
 
         //matches
         if (!config.secrets.TBA_API_KEY) {
-            console.error(chalk.whiteBright.bgRed.bold("TBA_API_KEY not found in config.json file! SPOT will not properly function without this."))
+            console.error(chalk.whiteBright.bgRed.bold("TBA_API_KEY not found in config.json file! Cookie Monster will not properly function without this."))
         }
         ScoutingSync.match = (await ScoutingSync.getMatches())[0] || {number: 0, match_string: "", robots: {red: [], blue: []}};
 

@@ -118,7 +118,7 @@ class HeatmapScatterPlot {
                 showline: false
             },
             font: {
-                family: "Cairo, sans-serif"
+                family: "Rubik, sans-serif"
             },
             paper_bgcolor: "#FEFEFE",
             plot_bgcolor: "#FEFEFE",

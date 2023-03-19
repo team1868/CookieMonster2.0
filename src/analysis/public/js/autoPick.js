@@ -168,6 +168,7 @@ function matchStandardDeviation(alliance1, alliance2) {
 	let alliance1SD = 0
 	for (let a = 0; a < alliance1.length; a++) { 
 		data = getPath(alliance1[a],"standardDeviation",0)
+		console.log(getPath(alliance1[a],"standardDeviation",0));
 		alliance1SD += Math.pow(data, 2)
 	}
 	alliance1SD = Math.sqrt(alliance1SD)

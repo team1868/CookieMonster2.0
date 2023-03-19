@@ -110,6 +110,33 @@
     }
   },
   {
+    "type":"team",
+    "name":"gamepieceTimeLevel",
+    "outputPath":"countsLevels",
+    "options":{
+      "all": false,
+      "timeSlots" : { 
+        "Auto": 138000, 
+        "Teleop": 135000
+      },
+      "pickup" : ["cubePickup", "conePickup"],
+      "levelMap": {
+        "level0" : {
+          "cube": ["placement11", "placement12", "placement13", "placement14", "placement15", "placement16", "placement17", "placement18", "placement19"],
+          "cone": ["placement11", "placement12", "placement13", "placement14", "placement15", "placement16", "placement17", "placement18", "placement19"]
+        },
+        "level1" : {
+          "cube": ["placement22", "placement25", "placement28"],
+          "cone": ["placement21", "placement23", "placement24", "placement26", "placement27", "placement29"]
+        },
+        "level2" : {
+          "cube": ["placement32", "placement35", "placement38"],
+          "cone": ["placement31", "placement33", "placement34", "placement36", "placement37", "placement39"]
+        }
+      }
+    }
+  },
+  {
     "type":"tmp",
     "name":"countActions",
     "outputPath":"countsTeleop",
