@@ -8,7 +8,7 @@
           },
           "138000": {
               "layer": 11,
-              "displayText": "Do not touch"
+              "displayText": "Gap"
           },
           "135000": {
               "layer": 1,
@@ -98,7 +98,7 @@
                   },
                 {
                     "id": "chargingDock",
-                    "displayText": "Charging Dock",
+                    "displayText": "Charge Station",
                     "gridArea": ["3", "4", "4", "7"],
                     "class": "gray",
                     "type": "action",
@@ -107,7 +107,7 @@
                 {
                   "id": "comments",
                   "displayText": "Comments",
-                  "gridArea": ["8", "4", "5", "7"],
+                  "gridArea": ["5", "4", "5", "7"],
                   "class": "gray",
                   "type": "action",
                   "executables": [{"type": "layer", "args":[1,9]}]
@@ -325,7 +325,7 @@
                   },
                 {
                     "id": "chargingDock",
-                    "displayText": "Charging Dock",
+                    "displayText": "Charge Station",
                     "gridArea": ["3", "4", "4", "7"],
                     "class": "gray",
                     "type": "action",
@@ -545,7 +545,7 @@
                   },
                 {
                     "id": "chargingDock",
-                    "displayText": "Charging Dock",
+                    "displayText": "Charge Station",
                     "gridArea": ["3", "4", "4", "7"],
                     "class": "gray",
                     "type": "action",

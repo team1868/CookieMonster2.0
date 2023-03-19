@@ -41,7 +41,7 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: var(--gray);
+    background: var(--bg);
     filter: saturate(0.8);
     transition: 0.2s background;
     border-radius: 999px;

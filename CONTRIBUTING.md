@@ -1,6 +1,6 @@
 # Introduction
 
-Thank you for considering contributing to Huskie Robotics' SPOT. Contributions from the community are greatly appreciated and will help to improve SPOT for everyone.
+Thank you for considering contributing to Huskie Robotics' Cookie Monster. Contributions from the community are greatly appreciated and will help to improve Cookie Monster for everyone.
 
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
 Please note we have a [code of conduct](CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
@@ -17,12 +17,12 @@ Following these guidelines helps to communicate that you respect the time of the
 
 # Contributions
 
-SPOT is an open source project and we love to receive contributions from our community — you! There are many ways to contribute, from writing tutorials or blog posts, improving the documentation, submitting bug reports and feature requests or writing code which can be incorporated into SPOT itself.
+Cookie Monster is an open source project and we love to receive contributions from our community — you! There are many ways to contribute, from writing tutorials or blog posts, improving the documentation, submitting bug reports and feature requests or writing code which can be incorporated into Cookie Monster itself.
 
 ## Transformers and Modules
-We'd love to see your analysis transformers and modules added to SPOT so that it can help the entire FIRST community! If you think your transformer and module could help the analysis process for other teams, please feel free to add it to the repository. We're willing to include almost any transformer or module as long as it follows the following guidelines:
+We'd love to see your analysis transformers and modules added to Cookie Monster so that it can help the entire FIRST community! If you think your transformer and module could help the analysis process for other teams, please feel free to add it to the repository. We're willing to include almost any transformer or module as long as it follows the following guidelines:
 * **Documented well** - Transformers can be hard to understand! Make sure they're well documented so that anyone can understand what's going on within the transformer code.
-* **Stay in their own files** - Transformers and modules shouldn't need to modify the core SPOT code or any other modules, and should be limited to their specific file alone.
+* **Stay in their own files** - Transformers and modules shouldn't need to modify the core Cookie Monster code or any other modules, and should be limited to their specific file alone.
 * **Limited in scope** - Transformers should NOT modify or delete existing paths in the dataset. They should only create new ones.
 * **Stable** - Transformers and modules should not error if they are passed in the right data. Make sure to handle divide-by-zero errors and add default values, for example, to handle scenarios when  data is missing.
 * **Configurable** - Transformers and modules should work with any input data as long as it's in the right format. They should also be highly configurable for a variety of use cases. For example, the `Stats` module can display stats with an optional `multiplier` and `addend` as well as a data `label` for each statistic.
@@ -45,20 +45,20 @@ We'd love to see your analysis transformers and modules added to SPOT so that it
 
 
 # How to contribute
-Before you decide to make a contribution to SPOT, please ensure that your contributions adhere to the Apache V2 [license](LICENSE) terms and do not violate any of the licensing terms followed by SPOT. Specifically, please ensure that your contributions do not include or link to any third party libraries that do not adhere to the Apache V2 license terms. 
+Before you decide to make a contribution to Cookie Monster, please ensure that your contributions adhere to the Apache V2 [license](LICENSE) terms and do not violate any of the licensing terms followed by Cookie Monster. Specifically, please ensure that your contributions do not include or link to any third party libraries that do not adhere to the Apache V2 license terms. 
 
 1. Create your own fork of the code.
 2. Make your changes in your fork.
 3. If you like the change and think the project could use it:
     * Be sure you have followed the code style for the project.
-    * Note the [SPOT Code of Conduct](CODE_OF_CONDUCT.md).
-    * Send a pull request from your fork to the SPOT repository.
+    * Note the [Cookie Monster Code of Conduct](CODE_OF_CONDUCT.md).
+    * Send a pull request from your fork to the Cookie Monster repository.
 
 # Filing an issue
 When filing an issue, make sure to answer these five questions:
 
-1. What version of SPOT are you using (located in config.json)?
-2. Where are you hosting SPOT?
+1. What version of Cookie Monster are you using (located in config.json)?
+2. Where are you hosting Cookie Monster?
 3. What did you do? How can this issue be reproduced by others?
 4. What did you expect to see?
 5. What did you see instead?
@@ -66,9 +66,9 @@ When filing an issue, make sure to answer these five questions:
 # How to suggest a feature or enhancement
 ### Philosophy and guiding principles
 
-* SPOT's goal is to provide a universal scouting app platform that can function with any past or future FIRST Robotics game by just changing the configuration.
-* SPOT does not require you to write code to configure, set up, or use SPOT.
-* SPOT does not require you to be online for its most basic features (scouting, data analysis)
+* Cookie Monster's goal is to provide a universal scouting app platform that can function with any past or future FIRST Robotics game by just changing the configuration.
+* Cookie Monster does not require you to write code to configure, set up, or use Cookie Monster.
+* Cookie Monster does not require you to be online for its most basic features (scouting, data analysis)
 
 # Code review process
 The core team looks at pull requests on a regular basis in meetings and provides feedback on open pull requests and merges in valid pull requests.

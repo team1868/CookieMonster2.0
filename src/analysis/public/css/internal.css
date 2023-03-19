@@ -41,7 +41,7 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: var(--orange-light);
+    background: var(--accent);
     filter: saturate(0.8);
     transition: 0.2s background;
     border-radius: 999px;
@@ -52,7 +52,7 @@ html {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--accent-alt);
+    background: var(--green);
     width: 4px;
     border: 3px solid rgba(0,0,0,0);
     background-clip: padding-box;

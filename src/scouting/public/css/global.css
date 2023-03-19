@@ -1,13 +1,13 @@
 :root {
-    --bg: #EFEFEF;
-    --text: #232323;
-    --bg-alt: #FEFEFE;
-    --accent: #30a2ff;
-    --accent-alt: #ff6030;
-    --error: #ff5166;
+    --bg: #ffffff;
+    --text:#1b2631;
+    --bg-alt: #f0f6f8;
+    --accent: #0070b5;
+    --accent-alt: #1a3a6a;
+    --error: #e74c3c;
     --light-gray: #bebebe;
     --gray: #757575;
-    --green: #4caf50;
+    --green: #f4ecf7;
     --placeholder: #a3a3a3;
     --border-radius: 16px;
     --font: Rubik, sans-serif

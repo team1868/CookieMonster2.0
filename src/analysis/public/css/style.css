@@ -45,7 +45,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
-  box-shadow: 0 0 12px -2px #ff6030;
+  box-shadow: 0 0 12px -2px #d2afa4;
   grid-area: 1 / 2 / 2 / 4;
 }
 
