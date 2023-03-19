@@ -11,14 +11,14 @@ Cookie Monster is a scouting app for FRC developed by Space Cookies Team 1868 on
 * Quick setup with a built-in first-run wizard to walk teams through configuring their scouting app, connecting to The Blue Alliance, and setting up their database.
 * Completely configurable analysis and scouting view without the need for a single line of code.
 
-Cookie Monster is built with HTML, JS, CSS, and Node.js and operates with a MongoDB database.
+Spot is built with HTML, JS, CSS, and Node.js and operates with a MongoDB database.
 
-### Cookie Monster is designed for a wide range of teams with a wide range of expertise and requirements:
+### Spot is designed for a wide range of teams with a wide range of expertise and requirements:
 
-1. A team that is new to scouting and isn't sure what information to gather or how to analyze their data. Cookie Monster comes as a preconfigured app that can be deployed with minimal setup and will provide all the basic functionality needed by most teams.
-2. A team that has some experience with scouting and wants to collect specific data that may not be part of the default configuration but that doesn't have significant programming experience. Cookie Monster can be configured by modifying configuration files rather than by writing code.
-3. A team that has experience with scouting and wants to perform custom analysis operations or advanced custom scouting interfaces and has some programming experience. Cookie Monster can utilize user-provided analysis modules to extend its functionality beyond the default configuration without requiring teams to modify the base code. 
-4. A team that has significant experience with scouting and significant programming expertise. Cookie Monster is open source, documented, and designed to extensible such that teams can start from this code base and build their own custom scouting system.
+1. A team that is new to scouting and isn't sure what information to gather or how to analyze their data. Spot comes as a preconfigured app that can be deployed with minimal setup and will provide all the basic functionality needed by most teams.
+2. A team that has some experience with scouting and wants to collect specific data that may not be part of the default configuration but that doesn't have significant programming experience. Spot can be configured by modifying configuration files rather than by writing code.
+3. A team that has experience with scouting and wants to perform custom analysis operations or advanced custom scouting interfaces and has some programming experience. Spot can utilize user-provided analysis modules to extend its functionality beyond the default configuration without requiring teams to modify the base code. 
+4. A team that has significant experience with scouting and significant programming expertise. Spot is open source, documented, and designed to extensible such that teams can start from this code base and build their own custom scouting system.
 
 
 ## Guiding Principles
@@ -57,7 +57,7 @@ Documentation of the core codebase is currently partially included in files. Che
 * **Dylan Schmit** - *Initial work* - [cyandev](https://github.com/cyandev)
 * **Nithilan Kalidoss** - *Initial work* - [nithilan4](https://github.com/nithilan4)
 
-See also the list of [contributors](https://github.com/HuskieRobotics/Cookie Monster/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/HuskieRobotics/SPOT/contributors) who participated in this project.
 ## License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE.md](LICENSE) file for details
