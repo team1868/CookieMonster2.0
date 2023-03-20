@@ -7,7 +7,7 @@ const filesToCache = [
     "/css/landing.css",
     "/css/match-scouting.css",
     "/css/waiting.css",
-    "/icons/favicon.ico",
+    "/icons/favicon-(5)-3.png",
     "/img/field.svg",
     "/img/gear.svg",
     "/img/logo.png",
